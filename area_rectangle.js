@@ -1,4 +1,4 @@
-function areaOfrectangle(h,w){
-    return area=h*w
+function areaOfrectangle(l,b){
+    return area=l*b
 }
-console.log(areaOfrectangle(3,12));
+console.log(`Area of rectangle ${areaOfrectangle(3,12)}`);
