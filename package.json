@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "prompt-sync": "^4.0.0"
+  }
+}
