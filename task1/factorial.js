@@ -10,4 +10,4 @@ function factorial(num){
   return sum
     
 }
-console.log(factorial(4));
+console.log(factorial(5));

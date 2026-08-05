@@ -4,15 +4,18 @@ function convertTemperature(value,choice){
     switch(choice){
         case 1:
             f=(((9/5)*value)+32)
-            console.log("Tempearature:" ,f+" degreeCelsius");
+            console.log("Tempearature:" ,f+" degreeFarhrenheit");
             
             break
         
         case 2:
             c=(5/9)*(value-32)
-            console.log("Temperature:" ,c+" degreeFarhrenheit");
+            console.log("Temperature:" ,c+" degreeCelsius");
             
             break
+            default:
+                console.log("Select a valid choice");
+                
     }
 }
-convertTemperature(50,2)
+convertTemperature(43,1)

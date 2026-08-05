@@ -8,4 +8,4 @@ function calculateBill(unit){
     }
     
 }
-console.log(calculateBill(550));
+console.log(calculateBill(124));
